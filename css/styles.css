@@ -8,6 +8,11 @@ html{
     font-size: 62.5%;
 }
 
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
 header{
     width: 100%;
     height: 60px;
@@ -17,4 +22,21 @@ header{
 header nav{
     display: flex;
     justify-content: flex-end;
+    border: 2px solid blue;
+
+}
+
+header nav .nav-right-section{
+    width: 250px;   
+    height: auto; 
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav-right-section a{
+    margin-right: 1rem;
+    color: rgb(106, 106, 106);
+
 }
