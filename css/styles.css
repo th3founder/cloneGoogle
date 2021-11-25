@@ -67,6 +67,7 @@ main{
 
 }
 
+/* Lobo....... */
 main .main-logo{
     width: 530px;
     margin: 0 auto;
@@ -75,4 +76,59 @@ main .main-logo{
 
 main .main-logo img{
     width: 272px;
+}
+
+/*  input ....... */
+main .main-input{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 3.5rem;
+}
+
+
+main .main-input .main-input-container{
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+main .main-input .main-input-container input{
+    width: 450px;
+    height: 40px;
+    margin: 0 0.5rem;
+    border: none;
+    outline: none;/* outline: none; Nos sirve para quitar el borde generado cuando damos click a un input */
+
+}
+
+main .main-input .main-input-container:hover{
+    box-shadow: 0 1px 5px 0 #20212447;
+    border-color: #df31e500;
+}
+
+/* icons */
+main .main-input .main-input-container .search-icon{
+    background-image: url('https://img.icons8.com/android/24/000000/search.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; /*  */
+    color: #92979c;
+    width: 18px;
+    height: 18px;
+
+}
+
+main .main-input .main-input-container .micro-icon{
+    background-image: url('https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; /*  */
+    color: #92979c;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+
 }
